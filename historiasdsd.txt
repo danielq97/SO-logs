@@ -1,0 +1,121 @@
+sudo nautilus
+mdir VMs
+mkdir VMs
+mkdir VMs/Backup
+cd  vms
+cd VMs
+unzip Backup/Windows7.zip 
+vmplayer&
+cd VMs
+rm -r Windows\ 7.vmwarevm/
+rm -r Lub
+unzip Backup/Windows7.zip 
+unzip Backup/Lubuntu1604.zip 
+vmplayer&
+ip a
+ping 172.16.234.144
+sudo su
+cd VMs
+rm -r *
+exit
+cd VMs
+unizip /home/VMs/Windows10.zip 
+unzip /home/VMs/Windows10.zip 
+vmplayer &
+ping 8.8.8.8
+openssl version 
+ls
+cd Desktop/
+git clone https://github.com/danielq97/PWhomework.git
+cd
+ls
+cd Desktop/
+ls
+cd PWhomework/
+ls
+cat index.html 
+vi index.html 
+ls
+git status
+git add index.html 
+git commit -m "2nd COmmit"
+git config --global user.email discover_daniel@hotmail.com
+git config --global user.name daniel
+git commit -m "2nd COmmit"
+git push
+git config --global --list 
+git config --global --edit
+git config --global --list 
+git commit -m "sd"
+git config --local user.email discover_daniel@hotmail.com
+git config --local user.name daniel
+git status
+git add .
+git commit -m "update image"
+git push
+cd /
+ls
+cd home/
+ls
+cd seguridad/
+ls
+echo "Daniel Quintero" >texto1.txt
+sudo ls -laR >texto2.txt
+which openssl
+cp /usr/bin/openssl 
+cp /usr/bin/openssl .
+mv openssl texto3.txt
+ls
+openssl list-cipher-algorithms
+help
+help openssl
+openssl enc -aes-128-ecb -in texto1.txt -out cifrado1.bin -k 0123456789abcdef0123456789abcdef
+ls -l
+openssl list-cipher-algorithms
+openssl list -cipher-commands
+hexdump -C cifrado1.bin 
+openssl enc -d -aes-128-ecb -in salida1.txt -k 0123456789abcdef0123456789abcde0
+hexdump -C salida1.txt
+openssl enc -aes-128-ecb -in texto1.txt -out cifrado1.bin -k 0123456789abcdef0123456789abcdef
+openssl enc -aes-128-ecb -in texto1.txt -out salida1.txt -k 0123456789abcdef0123456789abcdef
+openssl enc -d -aes-128-ecb -in salida1.txt -k 0123456789abcdef0123456789abcde0
+openssl enc -d -aes-128-ecb -in salida1.txt -k 0123456789abcdef0123456789abcdef
+hexdump -C salida1.txt
+start
+help "transcript"
+help "info transcript"
+hexdump -C salida1.txt
+ls
+cat texto1.txt 
+vi texto1.txt 
+openssl enc -d -aes-128-ecb -in texto1.txt -out cifrado1.bin 
+hexdump -C cifrado1.bin 
+openssl enc -aes-128-ecb -in texto1.txt -out cifrado1.bin 
+hexdump -C cifrado1.bin 
+script history.txt
+cat history.txt 
+openss rand -dec 16
+openssl rand -dec 16
+openssl rand 16 -dec
+echo "aaaaaaaaaaaaaaa"> texto4.txt
+openssl enc -aes-128-ecb -in texto4.txt -out cifrado1.bin 
+cat texto4.txt 
+cat cifrado1.bin 
+echo "aaaaaaaaaaaaaaa"> cifrado4.bin
+openssl enc -aes-128-ecb -in texto1.txt -out cifrado4.bin 
+hexdump -Cv cifrado4.bin 
+man hexdump 
+openssl enc -aes-128-ecb -in texto4.txt -out cifrado5.bin
+hexdump -Cv cifrado5.bin 
+openssl enc -aes-128-cbc -in texto4.txt -out cifrado5.bin
+hexdump -Cv cifrado5.bin 
+openssl enc -aes-128-cbc -in texto4.txt -out cifrado5.bin -l 0123456789abcdef0123456789abcdef
+openssl enc -aes-128-ctr -in texto4.txt -out cifrado5.bin -k  0123456789abcdef0123456789abcdef iv 00000000000000000000000000000000
+hexdump cifrado5.bin 
+hexdump -Cv cifrado5.bin 
+echo "Hola1" > mensaje1.txt
+script historia2.txt
+ls
+mv historia2.txt Desktop/
+ls
+history -w ~/historiasdsd.txt
